@@ -3,7 +3,7 @@
 Exactly 12 integrations are represented. Each trigger targets Android Java
 sources under `app/src` or build outputs under `app/build`.
 
-On this branch, analysis and Gradle run on JDK 21 while Android sources compile
+On this branch, analysis and Gradle run on JDK 25 while Android sources compile
 to the platform-supported Java 17 level.
 
 1. PMD + Lizard (`pmd-lizard`)
