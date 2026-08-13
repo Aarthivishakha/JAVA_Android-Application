@@ -1,7 +1,7 @@
 name: Android CI
 on:
   push:
-    branches: [Java_8]
+    branches: [Java_11]
   pull_request:
 permissions:
   contents: read
@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-java@v4
         with: {distribution: temurin, java-version: '11', cache: gradle}
       - uses: gradle/actions/setup-gradle@v4
-        with: {gradle-version: '6.7.1'}
+        with: {gradle-version: '7.5'}
       - run: gradle testDebugUnitTest assembleDebug lintDebug
