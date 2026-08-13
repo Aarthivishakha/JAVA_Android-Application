@@ -1,0 +1,4 @@
+name: JaCoCo 0.8.14
+inputs: [app/src/main/java, app/src/test/java]
+command: gradle testDebugUnitTest
+output: app/build/reports/jacoco

@@ -1,0 +1,3 @@
+name: diff-cover and JaCoCo 0.8.14
+inputs: [app/build/reports/jacoco/testDebugUnitTestCoverage/testDebugUnitTestCoverage.xml]
+command: diff-cover jacoco.xml --compare-branch origin/main

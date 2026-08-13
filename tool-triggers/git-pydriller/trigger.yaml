@@ -1,0 +1,3 @@
+name: git and PyDriller
+inputs: [.git, app/src]
+command: python history.py --path app/src

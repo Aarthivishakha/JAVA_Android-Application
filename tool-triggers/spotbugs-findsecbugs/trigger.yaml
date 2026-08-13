@@ -1,0 +1,3 @@
+name: SpotBugs 4.10.3 and FindSecBugs 1.14
+inputs: [app/build/intermediates/javac/debug/classes]
+command: spotbugs -pluginList findsecbugs-plugin.jar app/build/intermediates/javac/debug/classes

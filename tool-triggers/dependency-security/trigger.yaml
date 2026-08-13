@@ -1,0 +1,3 @@
+name: OWASP Dependency-Check 13 or Grype
+inputs: [build.gradle, app/build.gradle]
+commands: ["dependency-check --scan .", "grype dir:."]

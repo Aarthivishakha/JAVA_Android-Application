@@ -1,0 +1,4 @@
+name: JaCoCo 0.8.14 branch proxy
+inputs: [app/build/reports/jacoco]
+command: gradle testDebugUnitTest
+metric: branch_coverage

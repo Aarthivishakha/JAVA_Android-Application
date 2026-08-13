@@ -1,0 +1,3 @@
+name: PMD 7.26 and Lizard
+inputs: [app/src/main/java]
+commands: ["pmd check -d app/src/main/java -R rulesets/java/quickstart.xml", "lizard app/src/main/java"]

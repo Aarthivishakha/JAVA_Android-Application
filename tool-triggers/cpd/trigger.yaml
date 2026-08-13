@@ -1,0 +1,3 @@
+name: CPD from PMD 7.26
+inputs: [app/src/main/java]
+command: pmd cpd --minimum-tokens 50 --dir app/src/main/java --language java
